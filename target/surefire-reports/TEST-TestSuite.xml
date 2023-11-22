@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="77.62" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/deep/eclipse-workspace/StandardStore/target/test-classes:/Users/deep/eclipse-workspace/StandardStore/target/classes:/Users/deep/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/deep/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/deep/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deep/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-java/4.14.1/selenium-java-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-api/4.14.1/selenium-api-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.14.1/selenium-chrome-driver-4.14.1.jar:/Users/deep/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/deep/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/deep/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/deep/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deep/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deep/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/deep/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/deep/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.14.1/selenium-chromium-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-json/4.14.1/selenium-json-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.14.1/selenium-manager-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.14.1/selenium-devtools-v116-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.14.1/selenium-devtools-v117-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.14.1/selenium-devtools-v118-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.14.1/selenium-devtools-v85-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.14.1/selenium-edge-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.14.1/selenium-firefox-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-http/4.14.1/selenium-http-4.14.1.jar:/Users/deep/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.14.1/selenium-ie-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.14.1/selenium-remote-driver-4.14.1.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/deep/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-os/4.14.1/selenium-os-4.14.1.jar:/Users/deep/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.14.1/selenium-safari-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-support/4.14.1/selenium-support-4.14.1.jar:/Users/deep/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/deep/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/deep/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/deep/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/deep/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/deep/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/deep/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/deep/.m2/repository/org/apache/poi/poi/5.2.4/poi-5.2.4.jar:/Users/deep/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/deep/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/deep/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/deep/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/deep/.m2/repository/org/apache/poi/poi-ooxml/5.2.4/poi-ooxml-5.2.4.jar:/Users/deep/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.4/poi-ooxml-lite-5.2.4.jar:/Users/deep/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/deep/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/deep/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/deep/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.0/log4j-core-2.22.0.jar:/Users/deep/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.0/log4j-api-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CH"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@11/11.0.21/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/deep/eclipse-workspace/StandardStore/target/surefire/surefirebooter-20231122160922570_3.jar /Users/deep/eclipse-workspace/StandardStore/target/surefire 2023-11-22T16-09-22_517-jvmRun1 surefire-20231122160922570_1tmp surefire_0-20231122160922570_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/deep/eclipse-workspace/StandardStore/target/test-classes:/Users/deep/eclipse-workspace/StandardStore/target/classes:/Users/deep/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/deep/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/deep/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deep/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-java/4.14.1/selenium-java-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-api/4.14.1/selenium-api-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.14.1/selenium-chrome-driver-4.14.1.jar:/Users/deep/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/deep/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/deep/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/deep/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deep/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deep/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/deep/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/deep/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.14.1/selenium-chromium-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-json/4.14.1/selenium-json-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.14.1/selenium-manager-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.14.1/selenium-devtools-v116-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.14.1/selenium-devtools-v117-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.14.1/selenium-devtools-v118-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.14.1/selenium-devtools-v85-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.14.1/selenium-edge-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.14.1/selenium-firefox-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-http/4.14.1/selenium-http-4.14.1.jar:/Users/deep/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.14.1/selenium-ie-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.14.1/selenium-remote-driver-4.14.1.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/deep/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/deep/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-os/4.14.1/selenium-os-4.14.1.jar:/Users/deep/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.14.1/selenium-safari-driver-4.14.1.jar:/Users/deep/.m2/repository/org/seleniumhq/selenium/selenium-support/4.14.1/selenium-support-4.14.1.jar:/Users/deep/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/deep/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/deep/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/deep/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/deep/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/deep/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/deep/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/deep/.m2/repository/org/apache/poi/poi/5.2.4/poi-5.2.4.jar:/Users/deep/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/deep/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/deep/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/deep/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/deep/.m2/repository/org/apache/poi/poi-ooxml/5.2.4/poi-ooxml-5.2.4.jar:/Users/deep/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.4/poi-ooxml-lite-5.2.4.jar:/Users/deep/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/deep/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/deep/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/deep/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.0/log4j-core-2.22.0.jar:/Users/deep/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.0/log4j-api-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/deep"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@11/11.0.21/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/deep/eclipse-workspace/StandardStore"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/deep/eclipse-workspace/StandardStore/target/surefire/surefirebooter-20231122160922570_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.21+0"/>
+    <property name="user.name" value="deep"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/deep/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/nz/2gr2dqxs343b0qvdskbc3pn00000gn/T/"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="/Users/deep/eclipse-workspace/StandardStore"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/deep/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="11.0.21+0"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="test1" classname="Tests.demoTest" time="4.642">
+    <system-out><![CDATA[executed chrome
+Hello in test
+€ Euro
+Rs. India Rupee
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 22, 2023 4:09:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="searchAndAddItemToCart" classname="Tests.AbstractCompsTest" time="19.204">
+    <system-out><![CDATA[executed chrome
+€ Euro
+Rs. India Rupee
+16:09:47.026 [main] INFO  Tests.AbstractCompsTest - Currency is set to: Rs. India Rupee
+16:10:00.806 [main] INFO  Tests.AbstractCompsTest - Item Added to Cart
+16:10:01.970 [main] INFO  Tests.AbstractCompsTest - Cart Viewed
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2023 4:09:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCurrencySelection" classname="Tests.AbstractCompsTest" time="2.749">
+    <system-out><![CDATA[executed chrome
+€ Euro
+Rs. India Rupee
+16:10:11.214 [main] INFO  Tests.AbstractCompsTest - Expected currency selection Passed 
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2023 4:10:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFloatingButtons_ScrollingToBottomOfScreen" classname="Tests.AbstractCompsTest" time="1.498">
+    <system-out><![CDATA[executed chrome
+16:10:19.661 [main] INFO  Tests.AbstractCompsTest - Moved to the bottom of the Screen 
+16:10:20.993 [main] INFO  Tests.AbstractCompsTest - Clicked floating tracking button on Home Page 
+16:10:21.088 [main] INFO  Tests.AbstractCompsTest - Switched back to the Home Page 
+16:10:21.093 [main] INFO  Tests.AbstractCompsTest - Moved to the top of the screen 
+16:10:21.145 [main] INFO  Tests.AbstractCompsTest - Clicked floating WhatsApp Button 
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2023 4:10:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="verifyOrderTracking_InvalidTrackingID" classname="Tests.AbstractCompsTest" time="2.095">
+    <system-out><![CDATA[executed chrome
+16:10:30.864 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2023 4:10:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterationPage" classname="Tests.AbstractCompsTest" time="2.236">
+    <system-out><![CDATA[executed chrome
+16:10:40.102 [main] INFO  Tests.AbstractCompsTest - Clicked continue button on Register Page without checking Privacy Policy CheckButton
+16:10:40.117 [main] INFO  Tests.AbstractCompsTest - Expected Privacy warning Message displayed
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2023 4:10:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 119
+]]></system-err>
+  </testcase>
+</testsuite>

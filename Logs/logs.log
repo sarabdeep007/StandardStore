@@ -20,3 +20,27 @@
 13:23:03.540 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
 13:54:35.373 [main] INFO  Tests.AbstractCompsTest - Clicked continue button on Register Page without checking Privacy Policy CheckButton
 13:54:35.397 [main] INFO  Tests.AbstractCompsTest - Expected Privacy warning Message displayed
+16:05:39.464 [main] INFO  Tests.AbstractCompsTest - Currency is set to: Rs. India Rupee
+16:05:52.235 [main] INFO  Tests.AbstractCompsTest - Item Added to Cart
+16:05:53.287 [main] INFO  Tests.AbstractCompsTest - Cart Viewed
+16:06:05.075 [main] INFO  Tests.AbstractCompsTest - Expected currency selection Passed 
+16:06:12.244 [main] INFO  Tests.AbstractCompsTest - Moved to the bottom of the Screen 
+16:06:13.156 [main] INFO  Tests.AbstractCompsTest - Clicked floating tracking button on Home Page 
+16:06:13.250 [main] INFO  Tests.AbstractCompsTest - Switched back to the Home Page 
+16:06:13.255 [main] INFO  Tests.AbstractCompsTest - Moved to the top of the screen 
+16:06:13.300 [main] INFO  Tests.AbstractCompsTest - Clicked floating WhatsApp Button 
+16:06:23.395 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
+16:06:31.926 [main] INFO  Tests.AbstractCompsTest - Clicked continue button on Register Page without checking Privacy Policy CheckButton
+16:06:31.942 [main] INFO  Tests.AbstractCompsTest - Expected Privacy warning Message displayed
+16:09:47.026 [main] INFO  Tests.AbstractCompsTest - Currency is set to: Rs. India Rupee
+16:10:00.806 [main] INFO  Tests.AbstractCompsTest - Item Added to Cart
+16:10:01.970 [main] INFO  Tests.AbstractCompsTest - Cart Viewed
+16:10:11.214 [main] INFO  Tests.AbstractCompsTest - Expected currency selection Passed 
+16:10:19.661 [main] INFO  Tests.AbstractCompsTest - Moved to the bottom of the Screen 
+16:10:20.993 [main] INFO  Tests.AbstractCompsTest - Clicked floating tracking button on Home Page 
+16:10:21.088 [main] INFO  Tests.AbstractCompsTest - Switched back to the Home Page 
+16:10:21.093 [main] INFO  Tests.AbstractCompsTest - Moved to the top of the screen 
+16:10:21.145 [main] INFO  Tests.AbstractCompsTest - Clicked floating WhatsApp Button 
+16:10:30.864 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
+16:10:40.102 [main] INFO  Tests.AbstractCompsTest - Clicked continue button on Register Page without checking Privacy Policy CheckButton
+16:10:40.117 [main] INFO  Tests.AbstractCompsTest - Expected Privacy warning Message displayed
