@@ -1,0 +1,3 @@
+12:13:53.355 [main] INFO  TestComponents.Listeners - searchAndAddItemToCart _test started
+12:13:53.359 [main] INFO  TestComponents.Listeners - verifyCurrencySelection _test started
+12:13:53.362 [main] INFO  TestComponents.Listeners - verifyOrderTracking_InvalidTrackingID _test started

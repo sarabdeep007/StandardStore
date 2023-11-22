@@ -1,0 +1,22 @@
+13:19:29.327 [main] INFO  TestComponents.Listeners - searchAndAddItemToCart _test started
+13:19:32.298 [main] INFO  Tests.AbstractCompsTest - Currency is set to: Rs. India Rupee
+13:19:46.034 [main] INFO  Tests.AbstractCompsTest - Item Added to Cart
+13:19:47.171 [main] INFO  Tests.AbstractCompsTest - Cart Viewed
+13:19:54.848 [main] INFO  TestComponents.Listeners - verifyCurrencySelection _test started
+13:20:05.048 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen _test started
+13:20:05.067 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen has FAILED
+13:20:05.793 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen's SCREENSHOT CAPTURED
+13:20:13.133 [main] INFO  TestComponents.Listeners - verifyOrderTracking_InvalidTrackingID _test started
+13:20:15.244 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
+13:22:03.744 [main] INFO  TestComponents.Listeners - searchAndAddItemToCart _test started
+13:22:06.353 [main] INFO  Tests.AbstractCompsTest - Currency is set to: Rs. India Rupee
+13:22:20.416 [main] INFO  Tests.AbstractCompsTest - Item Added to Cart
+13:22:21.659 [main] INFO  Tests.AbstractCompsTest - Cart Viewed
+13:22:33.298 [main] INFO  TestComponents.Listeners - verifyCurrencySelection _test started
+13:22:46.388 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen _test started
+13:22:46.411 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen has FAILED
+13:22:46.620 [main] INFO  TestComponents.Listeners - verifyFloatingButtons_ScrollingToBottomOfScreen's SCREENSHOT CAPTURED
+13:23:00.278 [main] INFO  TestComponents.Listeners - verifyOrderTracking_InvalidTrackingID _test started
+13:23:03.540 [main] INFO  Tests.AbstractCompsTest - Order ID Tracking for invalidID verified correctly with expected Invalid Order Tracking Text
+13:54:35.373 [main] INFO  Tests.AbstractCompsTest - Clicked continue button on Register Page without checking Privacy Policy CheckButton
+13:54:35.397 [main] INFO  Tests.AbstractCompsTest - Expected Privacy warning Message displayed
